@@ -17,12 +17,10 @@
                 />
           </div>
           <div class="upcoming-event2">
-            <OneEvent
-              title="Second Event"
-              snapshot="This is the second event"
-              link="https://www.google.com"
-              picSrc="logo.png"
-            />
+              <OneEvent title="Long Shen Dao"
+                        snapshot="TBD"
+                        link="https://mp.weixin.qq.com/s/DJwji8fZ3d-k9SOlG25P9g"
+                        picSrc="event/longshendao.jpg" />
           </div>
           <div class="upcoming-event3">
             <OneEvent
@@ -104,7 +102,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .events {
   width: 80%;
   margin: auto

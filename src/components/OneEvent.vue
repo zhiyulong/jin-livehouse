@@ -1,7 +1,7 @@
 <template>
     
     <v-card width="400" class="mx-auto" color="#ffffff">
-        <v-img class="image" :src="require(`../assets/${picSrc}`)" width="500px" height="400px"/>
+        <v-img class="image" :src="require(`../assets/${picSrc}`)" />
         <v-card-title>
             <h2 class="title-text">{{ title }}</h2>
         </v-card-title>
@@ -33,10 +33,11 @@ export default {
 
 <style>
 .image {
+    width: 500px;
+    height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .title-text {

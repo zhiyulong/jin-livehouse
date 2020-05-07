@@ -20,24 +20,11 @@
       
         <MemoryItem
           title="Interview with Jin during the Coronavirus"
-          snapshot="This is the second memory"
+          snapshot="Life without livehouse"
           link="https://mp.weixin.qq.com/s/lGVOAVWebDZAcIHJRR3_IA"
           picSrc="mem-photo/m2.jpg"
         />
      
-        <MemoryItem
-          title="Third memory"
-          snapshot="This is the third memory"
-          link="https://www.google.com"
-          picSrc="logo.png"
-        />
-
-        <MemoryItem
-          title="Third memory"
-          snapshot="This is the third memory"
-          link="https://www.google.com"
-          picSrc="logo.png"
-        />
     </div>
 
     <br />
@@ -127,7 +114,11 @@ export default {
           require(`../assets/mem-photo/p2.jpeg`),
           require(`../assets/mem-photo/p1.jpeg`),
           require(`../assets/mem-photo/p4.jpeg`),
-          
+          require(`../assets/mem-photo/p5.jpeg`),
+          require(`../assets/mem-photo/p6.jpeg`),
+          require(`../assets/mem-photo/p7.jpeg`),
+          require(`../assets/mem-photo/p8.jpeg`),
+          require(`../assets/mem-photo/p9.jpeg`),
       ],
       index: null
     }
@@ -135,7 +126,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 h3 {
   margin: 20px;
@@ -164,6 +155,7 @@ video {
 }
 
 .memory-item {
+  margin-left: 4%;
   display: flex;
   flex-wrap: wrap;
 }

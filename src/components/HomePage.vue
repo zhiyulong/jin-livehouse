@@ -2,7 +2,7 @@
     <div class="homepage">
 
         <div class="video">
-            <video id="main" controls autoplay muted loop>
+            <video id="main" style="width: 100%; height: 100%;" controls autoplay muted loop>
                 <source src="../assets/homepagevideo.mp4" type="video/mp4">
             </video>
         </div>
@@ -27,10 +27,6 @@
 </script>
 
 <style>
-    .main {
-        width: 100%;
-        height: 100%;
-    }
 
     .video2 {
         display: flex;

@@ -1,13 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../src/router/index.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../src/views/Event.vue">
     <Files>
-      <File FileName="../src/views/Memory.vue" Line="168" Column="19" />
-      <File FileName="../src/components/TailInfo.vue" />
-      <File FileName="../src/components/HomePage.vue" />
-      <File FileName="../src/App.vue" Line="11" Column="81" />
-      <File FileName="../src/components/MemoryItem.vue" Line="36" Column="20" />
-      <File FileName="../src/views/Event.vue" Line="152" Column="23" />
+      <File FileName="../src/views/Memory.vue" Line="158" Column="19" />
+      <File FileName="../src/views/Event.vue" Line="124" Column="78" />
+      <File FileName="../src/views/Home.vue" Line="23" Column="58" />
       <File FileName="../src/router/index.js" Line="29" Column="48" />
+      <File FileName="../src/components/OneEvent.vue" Line="37" Column="13" />
+      <File FileName="../src/components/MemoryItem.vue" Line="36" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
