@@ -19,12 +19,14 @@ const routes = [
   {
     path: "/event",
     name: "Event",
+    alias: ["/past-event", "/upcoming-event"],
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Event.vue")
   },
   {
      path: "/memory",
      name: "Memory",
+     alias: ["/article", "/videos", "/photos"],
      component: () =>
        import(/* webpackChunkName: "about" */ "../views/Memory.vue")
   },

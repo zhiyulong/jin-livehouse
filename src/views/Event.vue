@@ -13,7 +13,9 @@
                 <video width="50%" controls>
                     <source src="../assets/openmic/nowoman.mp4" type="video/mp4">
                 </video>
+            </swiper-slide>
 
+            <swiper-slide>
                 <video width="50%" controls>
                     <source src="../assets/openmic/open9.mp4" type="video/mp4">
                 </video>
@@ -23,7 +25,9 @@
                 <video width="50%" controls>
                     <source src="../assets/openmic/open8.mp4" type="video/mp4">
                 </video>
+            </swiper-slide>
 
+            <swiper-slide>
                 <video width="50%" controls>
                     <source src="../assets/openmic/open4.mp4" type="video/mp4">
                 </video>
@@ -33,7 +37,9 @@
                 <video width="50%" controls>
                     <source src="../assets/openmic/open6.mp4" type="video/mp4">
                 </video>
+            </swiper-slide>
 
+            <swiper-slide>
                 <video width="50%" controls>
                     <source src="../assets/openmic/open3.mp4" type="video/mp4">
                 </video>
@@ -43,7 +49,9 @@
                 <video width="50%" controls>
                     <source src="../assets/openmic/open1.mp4" type="video/mp4">
                 </video>
+            </swiper-slide>
 
+            <swiper-slide>
                 <video width="50%" controls>
                     <source src="../assets/openmic/open2.mp4" type="video/mp4">
                 </video>
@@ -140,7 +148,8 @@ h3 {
 }
 
 video {
-    padding: 1%;
+    padding-left: 25%;
+    padding-left: 25%;
     width: 48%;
 }
 
